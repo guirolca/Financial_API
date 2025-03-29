@@ -1,0 +1,24 @@
+# Ignora modelos pesados y archivos temporales
+*.zip
+*.h5
+*.joblib
+
+# Carpetas ocultas y archivos del sistema
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+
+# Streamlit config
+.env
+.streamlit/secrets.toml
+
+# VSCode y entorno
+.vscode/
+*.log
+*.pyc
+
+# One note
+*.onetoc2
+
+# Carpeta de modelos si se generan dentro
+app/models/
